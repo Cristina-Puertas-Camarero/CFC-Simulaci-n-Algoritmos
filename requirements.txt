@@ -1,2 +1,10 @@
 streamlit
-metapolit
+matplotlib
+numpy   
+pandas
+scikit-learn
+scipy
+seaborn
+plotly
+altair
+
