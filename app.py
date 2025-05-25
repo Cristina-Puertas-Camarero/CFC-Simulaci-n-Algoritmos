@@ -25,9 +25,10 @@ if menu == "Presentación y Datos":
     y optimizando recursos para mejorar la rentabilidad y reducir incertidumbre.
     """)
 
-    # 📌 Cargar datos
+    # 📌 Cargar datos asegurando compatibilidad
     archivo = "datos_sinteticos.xlsx"
-    df = pd.read_excel(archivo)
+    df = pd.read_excel(archivo)  
+
 
     # 📊 KPIs clave en construcción
     st.subheader("Indicadores Estratégicos de Construcción")
